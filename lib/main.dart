@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 200.0,
+                radius: 100.0,
                 backgroundImage: AssetImage('images/Headshot.jpg'),
               ),
               SizedBox( height: 10.0,),
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 60.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 40.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 60.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 40.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
